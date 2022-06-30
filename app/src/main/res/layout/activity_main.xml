@@ -11,51 +11,50 @@
         android:id="@+id/btn_logout"
         android:layout_width="156dp"
         android:layout_height="42dp"
-        android:layout_marginEnd="120dp"
         android:backgroundTint="@android:color/black"
         android:onClick="logout"
         android:text="Wyloguj się"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.053" />
+        app:layout_constraintVertical_bias="0.959" />
 
     <Button
         android:id="@+id/btn_addTeam"
         android:layout_width="127dp"
         android:layout_height="111dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="136dp"
         android:backgroundTint="@android:color/black"
         android:text="Dodaj drużynę"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_scrollAddedTeams"
-        android:layout_width="142dp"
-        android:layout_height="121dp"
+        android:id="@+id/btn_map"
+        android:layout_width="89dp"
+        android:layout_height="81dp"
         android:backgroundTint="@android:color/black"
-        android:text="Przeglądaj dodane drużyny"
+        android:text="Mapa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.783" />
+        app:layout_constraintVertical_bias="0.024" />
 
     <Button
-        android:id="@+id/btn_editTeam"
-        android:layout_width="127dp"
-        android:layout_height="111dp"
-        android:layout_marginBottom="452dp"
+        android:id="@+id/btn_scrollAddedTeams"
+        android:layout_width="138dp"
+        android:layout_height="112dp"
         android:backgroundTint="@android:color/black"
-        android:text="Edytuj zespół"
+        android:text="Przeglądaj dodane drużyny"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_logout"
-        app:layout_constraintVertical_bias="0.984" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

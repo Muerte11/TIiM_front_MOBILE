@@ -1,28 +1,20 @@
 package com.example.tiimapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-import com.example.tiimapp.databinding.ActivityMainBinding;
-import com.example.tiimapp.retrofit.data.ClubDTO;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
     Button btn_addTeam;
     Button btn_scrollAddedTeams;
+    Button btn_map;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         btn_addTeam = (Button) findViewById(R.id.btn_addTeam);
         btn_scrollAddedTeams = findViewById(R.id.btn_scrollAddedTeams);
+        btn_map = findViewById(R.id.btn_map);
 
 
         btn_addTeam.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +37,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, ViewTeamsActivity.class));
+            }
+        });
+
+        btn_map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, MapsActivity.class));
             }
         });
 

@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
 >
 
     <GridLayout
@@ -20,7 +21,16 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:orientation="vertical"
             android:layout_weight="50">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nazwa klubu:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
         <TextView
             android:id="@+id/clubName"
@@ -29,10 +39,18 @@
             android:layout_margin="10dp"
             android:fontFamily="@font/hammersmith_one"
             android:gravity="start"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="20dp"
 
             />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skrót:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
         <TextView
             android:id="@+id/shortName"
@@ -44,6 +62,14 @@
             android:textColor="@color/white"
             android:textSize="20dp" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trener:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
         <TextView
             android:id="@+id/coachName"
             android:layout_width="wrap_content"
@@ -54,17 +80,33 @@
             android:textColor="@color/white"
             android:textSize="20dp" />
 
-        <TextView
-            android:id="@+id/stadium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:fontFamily="@font/hammersmith_one"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stadion:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
-        <TextView
+            <TextView
+                android:id="@+id/stadium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/hammersmith_one"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Strona WWW:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
             android:id="@+id/webPage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -73,6 +115,14 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kapitan:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
         <TextView
             android:id="@+id/captain"

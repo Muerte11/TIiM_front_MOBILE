@@ -7,12 +7,14 @@
         <entry key="app/src/main/res/drawable-v24/ic_baseline_delete_24.xml" value="0.2775" />
         <entry key="app/src/main/res/drawable-v24/ic_dashboard_black_24dp.xml" value="0.252" />
         <entry key="app/src/main/res/drawable-v24/ic_home_black_24dp.xml" value="0.252" />
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.339" />
         <entry key="app/src/main/res/layout/activity_add_players_to_club.xml" value="0.5572916666666666" />
         <entry key="app/src/main/res/layout/activity_add_team.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_edit_team.xml" value="0.5572916666666666" />
         <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.3255208333333333" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.307518115942029" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.46195652173913043" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.3255208333333333" />
         <entry key="app/src/main/res/layout/activity_settings.xml" value="0.3255208333333333" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.4053442028985507" />
