@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "228994911242",
+    "project_id": "tiimapp-b2524",
+    "storage_bucket": "tiimapp-b2524.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228994911242:android:52214cc12bd7f4176a23f3",
+        "android_client_info": {
+          "package_name": "com.example.tiimapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228994911242-2424854rm4d48i9op2pm2hov19806e8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRAUxyhkdtCU2rWIkbrpfbRNSwKjvwDYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228994911242-2424854rm4d48i9op2pm2hov19806e8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

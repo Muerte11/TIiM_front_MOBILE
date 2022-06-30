@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/champions"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_club"
+        android:layout_width="337dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        android:text="Dodaj drużynę piłkarską"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/clubName"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:background="@null"
+        android:backgroundTint="@color/white"
+        android:hint="Nazwa klubu"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="24dp"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_club">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@android:color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/shortName"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@android:color/white"
+        android:hint="Skrót"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="24dp"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clubName">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@android:color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/coachName"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@android:color/white"
+        android:hint="Trener"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="24dp"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shortName">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@android:color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/stadium"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@android:color/white"
+        android:hint="Nazwa stadionu"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="24dp"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coachName">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@android:color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/webPage"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@android:color/white"
+        android:hint="Strona WWW"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="24dp"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stadium">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@android:color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/captain"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@android:color/white"
+        android:hint="Kapitan"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="24dp"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/webPage">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@android:color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_addTeamToDb"
+        android:layout_width="104dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Dodaj klub"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stadium"
+        app:layout_constraintVertical_bias="0.754" />
+
+    <Button
+        android:id="@+id/btn_backToMenu"
+        android:layout_width="94dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Wróc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/webPage"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
